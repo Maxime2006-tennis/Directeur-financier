@@ -1,0 +1,72 @@
+body{background-color:rgb(300,300,300) ;/*indique la couleur du fond d'écran mais moins précis et indique la couleur précisément avec le code rgb(rouge,vert,bleu) */
+	font-family:monospace;/*permet de mettre une police( serif,sans serif,monospace,fantasy*/
+	font-size: 15px;/*indique la taille de la police*/
+	line-height:20px;/*indique l'espacement entre les lignes*/
+	text-align:center;/*permet de modifier la position du texte*/
+	border:solid;/*indique la bordure du texte(solid pour traits continu; dashed pour tirets; dotted pour pointillés */
+	border-color: red;/*indique la couleur de la bordure*/
+	border-width:5px;/*indique la taille de la bordure*/ 
+	border-radius:20px;
+	margin:20px;/*indique la valeur de la marge extérieur(nombre de valeur pour les 4 côtés dans le sens des aiguilles d'une montre)*/
+	margin-left: 20px;/*sert a modifier seulement la marge extérieure de gauche pour tous top, bottom, left, right*/
+	padding:20px;/*indique la valeur de la marge intérieur(nombre de valeur pour les 4 côtés dans le sens des aiguilles d'une montre)*/
+}	
+
+h1{color:red;/*indique la couleur du texte mais moins précis*/
+	font-variant:small-caps;/*permet de mettre en majuscules mais moins imposant que dans le code htlm*/
+	letter-spacing:1px;/*permet de définir l'espacement entre les lettres*/
+}
+
+h2{color: red;
+	font-weight:lighter;/*permet de rapeticir le texte*/
+}
+
+h3{color: green;
+}
+
+p{color:#1857EC;/*indique la couleur précisément avec le code hexadécimal*/
+}
+
+a{color:red;
+	text-decoration: none;/*indique que pour les liens aucune décoration*/
+}
+
+a:hover{color:green;/*indique la couleur du lien lorsque l'on passe la souris dessus*/
+
+}
+
+ul{color:#1857EC;
+}
+
+strong{color: red;
+}
+
+.titre{border-width: 2px;
+	border-radius:20px;
+	border-width:5px;
+	margin:50px 50px;
+	padding:15px;
+	box-shadow:30px 30px 30px black;
+}
+
+.Sommaire{border-width: 2px;
+	border-radius:20px;
+	border-width:5px;
+	margin:125px 150px;
+	padding:15px;
+	box-shadow:25px 25px 30px black;
+}
+
+div{
+	border-width:2px;
+	border-radius:20px;/*permet d'arrondir les cadres*/
+	margin:50px 225px;
+	padding:15px;
+	box-shadow:30px 30px 40px black;/*indique l'ommbre de gauche/dessous; l'estompage; la couleur de l'ombre*/
+}
+
+img{border-radius:10px;
+}
+
+iframe{border-radius:10px;
+}
